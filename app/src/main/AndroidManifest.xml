@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Verstka">
         <activity
-            android:name=".MainActivity"
+            android:name=".MainTwoActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +21,9 @@
         <activity android:name=".RegistrActivity"></activity>
         <activity android:name=".LoadActivity"></activity>
         <activity android:name=".AuthoActivity"></activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MenuActivity"></activity>
+        <activity android:name=".ProfileActivity"></activity>
     </application>
 
 </manifest>
